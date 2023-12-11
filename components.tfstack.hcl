@@ -9,7 +9,7 @@ component "secrets" {
   }
 }
 
-component "github" {
+component "repositories" {
   source = "./github"
 
   inputs = {
