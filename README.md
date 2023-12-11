@@ -13,7 +13,7 @@ Two components are used:
 
 * `secrets` uses a [data-only module](https://developer.hashicorp.com/terraform/language/modules/develop/composition#data-only-modules)
   to connect to Vault/HCP Vault and retrieve a pre-populated, static GitHub token.
-* `github` uses the token pulled from the `secrets` component to create a dummy GitHub repository.
+* `repositories` uses the token pulled from the `secrets` component to create a dummy GitHub repository.
 
 _We do not recommend using this example within production accounts. This example will incur [small]
 costs if provisioned. Please remember to destroy the infrastructure after using this example._
