@@ -4,7 +4,7 @@ _This is an example stack configuration for the private preview of Terraform Sta
 constructs and features are subject to change given feedback received during this preview. Do not
 use Stacks for production workloads at this time._
 
-IMAGE
+![github-via-vault-stack](https://github.com/hashicorp/github-via-vault-stack/assets/2430490/0cd021c1-7641-4441-99c8-6b61acb93e4b)
 
 An example Terraform Stack that demonstrates pulling _static credentials_ from Vault or HCP Vault
 (via OpenID Connect / Vault's JWT auth engine) for GitHub, to then provision a GitHub repository.
