@@ -25,7 +25,7 @@ _Prerequisites: You must have a Terraform Cloud account with access to the priva
 Terraform Stacks, a GitHub account, and an AWS account with Terraform Cloud configured as an OIDC
 identity provider. Details of all of this are found in the provided Stacks User Guide._
 
-1. **Configure Vault authentication**  (TODO: More details)
+1. **Configure Vault authentication** by configuring Vault's JWT secrets engine and a role with a trust policy allowing the role to be assumed by Terraform Cloud. More details on this step can be found in the Stacks User Guide.
 2. **Fork this repository** to your own GitHub account, such that you can edit this stack configuration
    for your purposes.
 3. **Edit your forked stack configuration** and change `deployments.tfdeploy.hcl` to use the correct
