@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 output "github_token" {
   description = "The static GitHub token stored securely in HCP Vault, fetched via OIDC authentication"
 
