@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-variable "identity_token_file" {
+variable "identity_token" {
   type = string
 }
 
