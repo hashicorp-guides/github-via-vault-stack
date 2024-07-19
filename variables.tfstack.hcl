@@ -2,7 +2,8 @@
 # SPDX-License-Identifier: MPL-2.0
 
 variable "identity_token" {
-  type = string
+  type      = string
+  ephemeral = true
 }
 
 variable "vault_address" {
