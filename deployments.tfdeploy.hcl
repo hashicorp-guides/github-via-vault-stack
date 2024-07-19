@@ -7,7 +7,7 @@ identity_token "vault" {
 
 deployment "production" {
   variables = {
-    identity_token_file = identity_token.vault.jwt_filename
+    identity_token = identity_token.vault.jwt
 
     # See variables.tfstack.hcl for more information
     vault_address       = "<Replace with your own Vault or HCP Vault cluster address>"
