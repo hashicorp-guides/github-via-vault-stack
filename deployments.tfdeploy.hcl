@@ -6,7 +6,7 @@ identity_token "vault" {
 }
 
 deployment "production" {
-  variables = {
+  inputs = {
     identity_token_file = identity_token.vault.jwt_filename
 
     # See variables.tfstack.hcl for more information
