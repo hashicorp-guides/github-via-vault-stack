@@ -1,8 +1,9 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-variable "identity_token_file" {
-  type = string
+variable "identity_token" {
+  type      = string
+  ephemeral = true
 }
 
 variable "vault_address" {
