@@ -9,7 +9,7 @@ deployment "production" {
   inputs = {
     identity_token = identity_token.vault.jwt
 
-    # See variables.tfcomponents.hcl for more information
+    # See variables.tfcomponent.hcl for more information
     vault_address       = "<Replace with your own Vault or HCP Vault cluster address>"
     vault_namespace     = "<Replace with the appropriate Vault namespace, if necessary"
     vault_role          = "<Replace with your created Vault role for JWT authentication with TFC"
